@@ -1,0 +1,1 @@
+# cordova-lottie-splashscreen
