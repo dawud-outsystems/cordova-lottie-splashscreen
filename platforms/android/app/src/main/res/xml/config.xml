@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="de.dustplanet.lottie" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="LottieSplashScreen">
+        <param name="android-package" value="de.dustplanet.cordova.lottie.LottieSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>LottieDemo</name>
+    <description>A sample Apache Cordova application to showcase the cordova-plugin-lottie-splashscreen-plugin</description>
+    <author email="github@timbrust.de">timbru31</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+        <application android:usesCleartextTraffic="true" />
+    </edit-config>
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="LottieRemoteEnabled" value="true" />
+    <preference name="LottieLoopAnimation" value="false" />
+    <preference name="GradlePluginKotlinEnabled" value="true" />
+    <preference name="GradlePluginKotlinVersion" value="1.7.22" />
+    <preference name="AndroidXEnabled" value="true" />
+    <preference name="LottieAnimationLocationLight" value="https://assets10.lottiefiles.com/private_files/lf30_is6flrfu.json" />
+    <preference name="LottieAnimationLocationDark" value="https://assets10.lottiefiles.com/private_files/lf30_is6flrfu.json" />
+    <preference name="LottieEnableHardwareAcceleration" value="true" />
+    <preference name="LottieFullScreen" value="true" />
+    <preference name="LottieHideAfterAnimationEnd" value="true" />
+    <preference name="LottieCacheDisabled" value="true" />
+</widget>
