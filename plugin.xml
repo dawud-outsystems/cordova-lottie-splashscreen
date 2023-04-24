@@ -22,6 +22,27 @@
         <source-file src="src/android/LottieSplashScreenExceptions.kt" target-dir="app/src/main/kotlin/de/dustplanet/cordova/lottie" />
 
         <framework src="com.airbnb.android:lottie:3.5.0" />
+
+
+        <preference name="GradlePluginKotlinEnabled" value="true" />
+        <preference name="GradlePluginKotlinVersion" value="1.7.22" />
+        <preference name="AndroidXEnabled" value="true" />
+        
+        <!-- Lottie specific config -->
+        <!-- <preference name="LottieAnimationLocationLight" value="https://assets.lottiefiles.com/datafiles/PEt3QhOjDXHDIGH/data.json" /> -->
+        <preference name="LottieAnimationLocationLight" value="https://assets10.lottiefiles.com/private_files/lf30_is6flrfu.json" />
+        <!-- <preference name="LottieAnimationLocationDark" value="https://assets1.lottiefiles.com/packages/lf20_iebai3g6.json" /> -->
+        <preference name="LottieAnimationLocationDark" value="https://assets10.lottiefiles.com/private_files/lf30_is6flrfu.json" />
+        <!-- <preference name="LottieBackgroundColor" value="#fff000a3" /> -->
+        <preference name="LottieEnableHardwareAcceleration" value="true" />
+        <!-- <preference name="LottieWidth" value="350" />
+        <preference name="LottieHeight" value="350" /> -->
+        <preference name="LottieFullScreen" value="true" />
+        <preference name="LottieHideAfterAnimationEnd" value="true" />
+
+
+        <preference name="LottieCacheDisabled" value="true" />
+
     </platform>
 
     <platform name="ios">
